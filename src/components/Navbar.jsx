@@ -7,11 +7,11 @@ const Navbar = () => {
       <div>
         <h1>Logo</h1>
       </div>
-      <div>
-        {/* <NavLink to={"/"}>Home</NavLink>
+      <div className="flex gap-5 items-center">
+        <NavLink to={"/"}>Home</NavLink>
         <NavLink to={"/about"}>About</NavLink>
         <NavLink to={"/projects"}>Projects</NavLink>
-        <NavLink to={"/contact"}>Contact</NavLink> */}
+        <NavLink to={"/contact"}>Contact</NavLink>
       </div>
       <button className="px-3 py-1 text-white bg-red-700 rounded-sm">
         Get Started

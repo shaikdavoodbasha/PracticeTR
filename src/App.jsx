@@ -7,6 +7,7 @@ import Reffing from './components/Reffing'
 import UseMemo from './components/UseMemo'
 import Forms from './components/Forms'
 import UseCallBack from './components/Callback/UseCallBack'
+import AppRouter from './routes/AppRouter'
 
 
 const App = () => {
@@ -28,7 +29,10 @@ const App = () => {
      {/* <Reffing /> */}
      {/* <UseMemo /> */}
      {/* <Forms /> */}
-     <UseCallBack />
+     {/* <UseCallBack /> */}
+     <Navbar />
+     <AppRouter />
+    
     </div>
   )
 }

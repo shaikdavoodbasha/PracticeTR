@@ -2,8 +2,8 @@ import React from 'react'
 
 const ContactPage = () => {
   return (
-    <div>
-      
+   <div className='flex justify-center items-center'>
+      <h1 className='text-center text-2xl text-red-600 py-10'>Contact Page</h1>
     </div>
   )
 }

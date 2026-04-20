@@ -8,6 +8,8 @@ import UseMemo from './components/UseMemo'
 import Forms from './components/Forms'
 import UseCallBack from './components/Callback/UseCallBack'
 import AppRouter from './routes/AppRouter'
+import Component5 from './mc/Component5'
+import Component6 from './mc/Component6'
 
 
 const App = () => {
@@ -30,8 +32,10 @@ const App = () => {
      {/* <UseMemo /> */}
      {/* <Forms /> */}
      {/* <UseCallBack /> */}
-     <Navbar />
+     {/* <Navbar />
      <AppRouter />
+     <Component5 /> */}
+     <Component6 />
     
     </div>
   )

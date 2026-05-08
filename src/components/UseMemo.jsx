@@ -15,7 +15,7 @@ const UseMemo = () => {
   simpleFu;
   return (
     <div className="flex flex-col gap-4">
-      <h1>This is Explain the useMemo Hook</h1>
+      {/* <h1>This is Explain the useMemo Hook</h1> */}
       <button
         className="px-4 py-2 bg-red-500 rounded-xl text-white"
         onClick={() => setCount(count + 1)}

@@ -10,7 +10,7 @@ const UseMemo = () => {
   const simpleFu = useMemo(() => {
     console.log("I am rendering..");
     let x = 23403030 * 12300;
-    // return x;
+    return x;
   },[]);
   simpleFu;
   return (

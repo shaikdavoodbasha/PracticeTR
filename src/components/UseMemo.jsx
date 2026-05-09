@@ -7,6 +7,7 @@ const UseMemo = () => {
     let x = 23403030 * 12300;
     return x;
   };
+
   const simpleFu = useMemo(() => {
     console.log("I am rendering..");
     let x = 23403030 * 12300;

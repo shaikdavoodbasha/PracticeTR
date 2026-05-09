@@ -2,11 +2,11 @@ import React, { useMemo, useState } from "react";
 
 const UseMemo = () => {
   const [count, setCount] = useState(0);
-  // const simpleFu = () => {
-  //   console.log("I am rendering..");
-  //   let x = 23403030 * 12300;
-  //   return x;
-  // };
+  const simpleFu = () => {
+    console.log("I am rendering..");
+    let x = 23403030 * 12300;
+    return x;
+  };
   const simpleFu = useMemo(() => {
     console.log("I am rendering..");
     let x = 23403030 * 12300;

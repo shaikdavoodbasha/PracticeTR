@@ -11,4 +11,4 @@ const Child = React.memo(({ viewing, data }) => {
   );
 });
 
-export default Child;
+// export default Child;

@@ -6,7 +6,7 @@ const Child = React.memo(({ viewing, data }) => {
   return (
     <div>
       <p>Child Data: {data}</p>
-      {/* <button onClick={viewing}>Click Child</button> */}
+      <button onClick={viewing}>Click Child</button>
     </div>
   );
 });

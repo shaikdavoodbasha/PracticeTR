@@ -56,7 +56,7 @@ const Component2 = () => {
               value={formData.fmail}
               onChange={handleChange}
               className="px-2 py-1 border border-red-500 rounded-lg"
-              placeholder="Enter your Email."
+              // placeholder="Enter your Email."
             />
           </div>
           <button className="px-3 py-1 bg-red-600 text-white rounded-lg">

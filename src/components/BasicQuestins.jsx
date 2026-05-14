@@ -18,7 +18,7 @@ const BasicQuestins = ({ data }) => {
       <p className="text-red-700">{name1}</p>
       <div>
         <p>{data.class}</p>
-        {/* <p>{data.section}</p> */}
+        <p>{data.section}</p>
       </div>
       <div className="flex gap-3 py-6">
         <button

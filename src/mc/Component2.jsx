@@ -23,7 +23,7 @@ const Component2 = () => {
   return (
     <div className="flex flex-col gap-3 items-center">
       <div className="flex flex-col gap-3">
-        <p>Clicks : {count}</p>
+        {/* <p>Clicks : {count}</p> */}
         {count != 5 ? (
           <button
             className="px-3 py-1 bg-red-500 text-white rounded-lg"

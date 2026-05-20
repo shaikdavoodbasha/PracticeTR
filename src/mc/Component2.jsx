@@ -38,7 +38,7 @@ const Component2 = () => {
       <div>
         <form className="flex flex-col gap-4 items-center" onSubmit={formSubmitting}>
           <div className="flex gap-3 items-center">
-            {/* <label>Enter Your Name: </label> */}
+            <label>Enter Your Name: </label>
             <input
               type="text"
               name="fname"

@@ -34,12 +34,12 @@ const BasicQuestins = ({ data }) => {
         >
           Decrement
         </button>
-        {/* <button
+        <button
           className="px-3 py-1 bg-red-600 text-white"
           onClick={() => setCount(0)}
         >
           Reset
-        </button> */}
+        </button>
       </div>
       <div className="grid grid-cols-3 gap-4">
         {cardData.map(({ title, description, category, id }) => {

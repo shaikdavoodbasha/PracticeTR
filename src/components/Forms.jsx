@@ -40,7 +40,7 @@ const Forms = () => {
         <div>
           <label>Your Number: </label>
           <input
-            type="text"
+            // type="text"
             name="fnumber"
             value={formData.fnumber}
             onChange={changing}

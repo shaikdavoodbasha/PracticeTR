@@ -29,7 +29,7 @@ const Forms = () => {
           />
         </div>
         <div>
-          <label>Your Email: </label>
+          {/* <label>Your Email: </label> */}
           <input
             type="text"
             name="femail"

@@ -27,7 +27,7 @@ const BasicQuestins = ({ data }) => {
         >
           Increment
         </button>
-        <p>Count Value : {count}</p>
+        {/* <p>Count Value : {count}</p> */}
         <button
           className="px-3 py-1 bg-red-600 text-white"
           onClick={() => setCount(count - 1)}
@@ -57,5 +57,5 @@ const BasicQuestins = ({ data }) => {
     </div>
   );
 };
-
+              
 export default BasicQuestins;

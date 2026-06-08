@@ -20,7 +20,7 @@ const Forms = () => {
     <div>
       <form onSubmit={submitting} className="flex flex-col gap-4">
         <div>
-          <label>Your Name: </label>
+          {/* <label>Your Name: </label> */}
           <input
             type="text"
             name="fname"

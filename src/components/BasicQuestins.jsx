@@ -15,7 +15,7 @@ const BasicQuestins = ({ data }) => {
         >
           IncVan
         </button>
-      {/* <p className="text-red-700">{name1}</p> */}
+      <p className="text-red-700">{name1}</p>
       <div>
         <p>{data.class}</p>
         <p>{data.section}</p>
@@ -27,7 +27,7 @@ const BasicQuestins = ({ data }) => {
         >
           Increment
         </button>
-        {/* <p>Count Value : {count}</p> */}
+        <p>Count Value : {count}</p>
         <button
           className="px-3 py-1 bg-red-600 text-white"
           onClick={() => setCount(count - 1)}

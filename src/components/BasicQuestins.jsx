@@ -15,7 +15,7 @@ const BasicQuestins = ({ data }) => {
         >
           IncVan
         </button>
-      {/* <p className="text-red-700">{name1}</p>adfad */}
+      <p className="text-red-700">{name1}</p>adfad
       <div>
         <p>{data.class}</p>
         <p>{data.section}</p>

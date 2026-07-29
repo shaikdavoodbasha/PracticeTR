@@ -20,9 +20,6 @@ const BasicQuestins = ({ data }) => {
         <p>{data.class}</p>
         <p>{data.section}</p>        
       </div>
-
-
-      
       <div className="flex gap-3 py-6">
         <button
           className="px-3 py-1 bg-red-600 text-white"

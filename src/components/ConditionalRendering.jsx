@@ -8,7 +8,7 @@ const ConditionalRendering = ({ sendToParent }) => {
   };
   return van ? (
     <div>
-      <h1>Hii I am Conditionkjhaly Render</h1>
+      {/* <h1>Hii I am Conditionkjhaly Render</h1> */}
     lk  <button
         className="px-3 py-2 bg-black text-white rounded-xl"
         onClick={action}
